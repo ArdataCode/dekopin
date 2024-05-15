@@ -1,0 +1,1273 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Legalco - Template kit for Public Notary & Legal",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single service",
+            "screenshot": "screenshots\/single-service.jpg",
+            "source": "templates\/single-service.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/template-kit\/single-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Project",
+            "screenshot": "screenshots\/project.jpg",
+            "source": "templates\/project.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/template-kit\/project\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing plan",
+            "screenshot": "screenshots\/pricing-plan.jpg",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Legalco - Error 404",
+            "screenshot": "screenshots\/legalco-error-404.jpg",
+            "source": "templates\/legalco-error-404.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/?elementor_library=legalco-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Legalco - Single Post",
+            "screenshot": "screenshots\/legalco-single-post.jpg",
+            "source": "templates\/legalco-single-post.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/?elementor_library=legalco-single-service",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Legalco - Archive Blog",
+            "screenshot": "screenshots\/legalco-archive-blog.jpg",
+            "source": "templates\/legalco-archive-blog.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/?elementor_library=legalco-archive-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Legalco - Footer",
+            "screenshot": "screenshots\/legalco-footer.jpg",
+            "source": "templates\/legalco-footer.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/?elementor_library=legalco-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Legalco - Header",
+            "screenshot": "screenshots\/legalco-header.jpg",
+            "source": "templates\/legalco-header.json",
+            "preview_url": "https:\/\/webkit.moxcreative.com\/legalco\/?elementor_library=legalco-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.8.7",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Skyboot Custom Icons for Elementor - Elementor Icons library",
+            "version": "1.0.5",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.12.0",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "asian-lawyer-woman-working-with-a-laptop-computer-in-a-law-office-legal-and-legal-service-concept-.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/asian-lawyer-woman-working-with-a-laptop-computer-in-a-law-office-legal-and-legal-service-concept--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 100714,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-53JPE6E"
+        },
+        {
+            "filename": "businessman-in-suit-or-lawyer-working-on-a-documents-legal-law.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/businessman-in-suit-or-lawyer-working-on-a-documents-legal-law-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 104129,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6FMGEQG"
+        },
+        {
+            "filename": "lawyer-who-provides-legal-advice-in-the-office-businessman-and-lawyer-shaking-hands-.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/lawyer-who-provides-legal-advice-in-the-office-businessman-and-lawyer-shaking-hands--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 86036,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4KNJVGV"
+        },
+        {
+            "filename": "bg_footer.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/bg_footer-800x301.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 6840,
+            "dimensions": [
+                1728,
+                650
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "the-best-team-for-any-problem-shot-of-a-group-of-lawyers-standing-in-the-city-.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/the-best-team-for-any-problem-shot-of-a-group-of-lawyers-standing-in-the-city--800x470.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 114756,
+            "dimensions": [
+                1280,
+                751
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-UXQPV9C"
+        },
+        {
+            "filename": "futuristic-office-building.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/futuristic-office-building-800x549.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 194488,
+            "dimensions": [
+                1280,
+                879
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PRVERHD"
+        },
+        {
+            "filename": "notary-public-wax-stamper-white-envelope-with-brown-wax-seal-golden-stamp-responsive-design-1.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/notary-public-wax-stamper-white-envelope-with-brown-wax-seal-golden-stamp-responsive-design-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 85251,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-QBE7EK9"
+        },
+        {
+            "filename": "bg_footer3.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/bg_footer3-800x343.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/legalco-single-post.json",
+                    "name": "Legalco - Single Post"
+                },
+                {
+                    "source": "templates\/legalco-footer.json",
+                    "name": "Legalco - Footer"
+                }
+            ],
+            "filesize": 7315,
+            "dimensions": [
+                1728,
+                740
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "business-of-insurance-client-feedback-service-concept-businessman-are-work-on-marketing-management.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/business-of-insurance-client-feedback-service-concept-businessman-are-work-on-marketing-management-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 104129,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KQ8UVG5"
+        },
+        {
+            "filename": "estate-broker-showing-documents-to-clients.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/estate-broker-showing-documents-to-clients-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 117474,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-YJY9QF4"
+        },
+        {
+            "filename": "satisfied-client-of-the-modern-car-showroom.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/satisfied-client-of-the-modern-car-showroom-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 167712,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ASC24BZ"
+        },
+        {
+            "filename": "signing-of-a-contract-of-sale-between-the-buyer-and-seller-.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/signing-of-a-contract-of-sale-between-the-buyer-and-seller--800x503.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 79197,
+            "dimensions": [
+                1280,
+                805
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZRWY25F"
+        },
+        {
+            "filename": "hand-stamping-with-approved-stamp-on-certificate-document-public-paper-at-desk-notary-or-business.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/hand-stamping-with-approved-stamp-on-certificate-document-public-paper-at-desk-notary-or-business-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 79688,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-38C32AV"
+        },
+        {
+            "filename": "lawyer-hand-holding-pen-and-providing-legal-consult-business-dispute-service-to-the-man-at-office.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/lawyer-hand-holding-pen-and-providing-legal-consult-business-dispute-service-to-the-man-at-office-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/legalco-archive-blog.json",
+                    "name": "Legalco - Archive Blog"
+                }
+            ],
+            "filesize": 92162,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-A9XFNMM"
+        },
+        {
+            "filename": "modern-urban-architecture.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/modern-urban-architecture-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 212518,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PB4ECGA"
+        },
+        {
+            "filename": "banner_4.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/banner_4.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 5349,
+            "dimensions": [
+                161,
+                83
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "banner_3.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/banner_3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 1975,
+            "dimensions": [
+                147,
+                52
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "banner_1.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/banner_1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 1268,
+            "dimensions": [
+                120,
+                52
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "two-office-colleagues-brainstorming-and-working-on-project-together.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/two-office-colleagues-brainstorming-and-working-on-project-together-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 124888,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-EEMS68S"
+        },
+        {
+            "filename": "notary-public-wax-stamper-white-envelope-with-brown-wax-seal-golden-stamp-responsive-design.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/notary-public-wax-stamper-white-envelope-with-brown-wax-seal-golden-stamp-responsive-design-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                },
+                {
+                    "source": "templates\/legalco-error-404.json",
+                    "name": "Legalco - Error 404"
+                }
+            ],
+            "filesize": 60033,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-XPBQZT6"
+        },
+        {
+            "filename": "14.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/14-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 124250,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "01.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/01-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 144855,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "06.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/06-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 127219,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "the-legal-execution-department-makes-an-appointment-with-the-customer-to-sign-a-mediation-agreement.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/the-legal-execution-department-makes-an-appointment-with-the-customer-to-sign-a-mediation-agreement-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 91808,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SGWDQB7"
+        },
+        {
+            "filename": "logo-1.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/logo-1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2063,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-2.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 1811,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-3.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/logo-3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2079,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-4.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2193,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-5.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/logo-5.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2300,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-11.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/logo-11.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 1900,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "justice-mallet-and-united-states-social-security-ssn-number-and-permanent-resident-green-card-from.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/justice-mallet-and-united-states-social-security-ssn-number-and-permanent-resident-green-card-from-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-service.json",
+                    "name": "Single service"
+                }
+            ],
+            "filesize": 104758,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-6EPKRHD"
+        },
+        {
+            "filename": "16.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/16-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 167382,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "13.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/13-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 107534,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "11.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/11-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 190408,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "02.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/02-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 93341,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "08.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/08-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 119250,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "09.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/09-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 119504,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "female-lawyer-sitting-at-workplace-in-office.jpg",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/female-lawyer-sitting-at-workplace-in-office-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 103091,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-J5KRYSK"
+        },
+        {
+            "filename": "img_1.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/img_1.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 97273,
+            "dimensions": [
+                500,
+                619
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-serious-entrepreneur-BVK579X"
+        },
+        {
+            "filename": "logo_legalco_w.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/logo_legalco_w.png",
+            "templates": [
+                {
+                    "source": "templates\/legalco-footer.json",
+                    "name": "Legalco - Footer"
+                }
+            ],
+            "filesize": 12626,
+            "dimensions": [
+                598,
+                173
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo_legalco.png",
+            "thumbnail_url": "https:\/\/webkit.moxcreative.com\/legalco\/wp-content\/uploads\/sites\/3\/2023\/04\/logo_legalco.png",
+            "templates": [
+                {
+                    "source": "templates\/legalco-header.json",
+                    "name": "Legalco - Header"
+                }
+            ],
+            "filesize": 14193,
+            "dimensions": [
+                598,
+                173
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

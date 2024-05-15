@@ -1,0 +1,4 @@
+[28-Jan-2024 13:04:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/landingu/dekopin.or.id/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/blocks/index.php on line 8

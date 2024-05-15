@@ -1,0 +1,981 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 07:18:53
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 8.0.28                                |7.4.33
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.33 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/u1567848/public_html/dekopin.or.id"
+REQUEST URL_________: "http://dekopin.or.id"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/u1567848/public_html/dekopin.or.id"
+URL_NEW_____________: "http://dekopin.or.id"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/u1567848/public_html/dekopin.or.id/20230603_dekopindewankoperasiindonesi_[HASH]_20230603023957_archive.zip"
+ARCHIVE SIZE________: 110.66MB
+CREATED_____________: 2023-06-03 02:39:57
+WP VERSION__________: 6.2.2
+DUP VERSION_________: 4.5.7
+LICENSE_____________: Business or Gold
+DB VERSION__________: 10.6.13
+DB FILE SIZE________: 7.75MB
+DB TABLES___________: 18
+DB ROWS_____________: 1568
+URL HOME____________: https://dekopin.or.id
+URL CORE____________: https://dekopin.or.id
+URL CONTENT_________: https://dekopin.or.id/wp-content
+URL UPLOAD__________: https://dekopin.or.id/wp-content/uploads
+URL PLUGINS_________: https://dekopin.or.id/wp-content/plugins
+URL MU PLUGINS______: https://dekopin.or.id/wp-content/mu-plugins
+URL THEMES__________: https://dekopin.or.id/wp-content/themes
+PATH HOME___________: /home/ardatagr/dekopin.or.id
+PATH ABS____________: /home/ardatagr/dekopin.or.id
+PATH WPCONFIG_______: /home/ardatagr/dekopin.or.id
+PATH WPCONTENT______: /home/ardatagr/dekopin.or.id/wp-content
+PATH UPLOADS________: /home/ardatagr/dekopin.or.id/wp-content/uploads
+PATH PLUGINS________: /home/ardatagr/dekopin.or.id/wp-content/plugins
+PATH MUPLUGINS______: /home/ardatagr/dekopin.or.id/wp-content/mu-plugins
+PATH THEMES_________: /home/ardatagr/dekopin.or.id/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "dekopin.or.id/"
+
+PLUGINS
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:elementskit-lite/elementskit-lite.php             ][ON:true ]  ElementsKit Lite
+PLUGIN [SLUG:envato-elements/envato-elements.php               ][ON:true ]  Envato Elements
+PLUGIN [SLUG:google-site-kit/google-site-kit.php               ][ON:true ]  Site Kit by Google
+PLUGIN [SLUG:skyboot-custom-icons-for-elementor/skyboot-custom-icons-for-elementor.php][ON:true ]  Skyboot Custom Icons for Elementor - Elementor Icons library
+
+********************************************************************************
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/ctrls/ctrl.base.php:232][DELTA:   0.18464]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Directive 'allow_url_include' is deprecated [CODE:8192|FILE:Unknown|LINE:0]
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/ctrls/ctrl.base.php:232][DELTA:   0.03609]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+LOG-TIME[DELTA:   0.00832]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00034]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.03146]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00126]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00150]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00102]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00069]  MESSAGE:TEST "Multiple WP Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/u1567848/public_html/dekopin.or.id/dup-installer/classes/database/class.db.php:646] MSG: SELECT command denied to user 'u1567848_allin'@'localhost' for table `mysql`.`user`
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'u1567848_allin' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/u1567848/public_html/dekopin.or.id/dup-installer/classes/validation/class.validation.database.service.php[979]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/u1567848/public_html/dekopin.or.id/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/u1567848/public_html/dekopin.or.id/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/u1567848/public_html/dekopin.or.id/dup-installer/classes/validation/class.validation.manager.php[237]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/u1567848/public_html/dekopin.or.id/dup-installer/classes/validation/class.validation.manager.php[210]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/u1567848/public_html/dekopin.or.id/dup-installer/ctrls/classes/class.ctrl.ajax.php[171]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/u1567848/public_html/dekopin.or.id/dup-installer/ctrls/classes/class.ctrl.ajax.php[96]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/u1567848/public_html/dekopin.or.id/dup-installer/main.installer.php[47]
+
+LOG-TIME[DELTA:   0.00031]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.57432]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00068]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00101]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00064]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00038]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Directive 'allow_url_include' is deprecated [CODE:8192|FILE:Unknown|LINE:0]
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 07:19:22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Dekopin Dewan Koperasi Indonesia"
+HOME URL NEW________: "http://dekopin.or.id"
+SITE URL NEW________: "http://dekopin.or.id"
+CONTENT URL NEW_____: "http://dekopin.or.id/wp-content"
+UPLOAD URL NEW______: "http://dekopin.or.id/wp-content/uploads"
+PLUGINS URL NEW_____: "http://dekopin.or.id/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://dekopin.or.id/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/u1567848/public_html/dekopin.or.id"
+SITE PATH NEW_______: "/home/u1567848/public_html/dekopin.or.id"
+CONTENT PATH NEW____: "/home/u1567848/public_html/dekopin.or.id/wp-content"
+UPLOAD PATH NEW_____: "/home/u1567848/public_html/dekopin.or.id/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/u1567848/public_html/dekopin.or.id/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/u1567848/public_html/dekopin.or.id/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home/u1567848/public_html/dekopin.or.id/dup-installer"
+	FILE: "/home/u1567848/public_html/dekopin.or.id/20230603_dekopindewankoperasiindonesi_[HASH]_20230603023957_installer-backup.php"
+	FILE: "/home/u1567848/public_html/dekopin.or.id/20230603_dekopindewankoperasiindonesi_[HASH]_20230603023957_archive.zip"
+	FILE: "/home/u1567848/public_html/dekopin.or.id/installer.php"
+	FILE: "/home/u1567848/public_html/dekopin.or.id/dup-installer-bootlog__d74588b-03023957.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230603_dekopindewankoperasiindonesi_[HASH]_20230603023957_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0101 sec. - Files processed: 1,113 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 1113
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0597 sec. - Files processed: 2,709 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2709
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0136 sec. - Files processed: 3,791 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3791
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0417 sec. - Files processed: 4,482 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4482
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0084 sec. - Files processed: 6,102 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6102
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0624 sec. - Files processed: 6,231 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6231
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0542 sec. - Files processed: 6,637 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6637
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0130 sec. - Files processed: 6,828 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6828
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0178 sec. - Files processed: 7,983 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7983
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0154 sec. - Files processed: 8,635 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8635
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0097 sec. - Files processed: 8,877 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8877
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2705 sec. - Files processed: 9,262 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9262
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0182 sec. - Files processed: 9,539 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9539
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0284 sec. - Files processed: 9,770 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9770
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.4510 sec. - Files processed: 10,058 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10058
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2901 sec. - Files processed: 11,357 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11357
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0099 sec. - Files processed: 11,626 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11626
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 13191
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 07:20:57 - RUNTIME: 95.7717 sec. - Files processed: 12,286 of 12,286
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 07:20:57
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_entities]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_packages]
+TABLE "wp_e_events"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_e_submissions"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_actions_log]
+TABLE "wp_e_submissions_values"_________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_values]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     251] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    1011] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     241] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:      13] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:      40] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:      13] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      40] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.5.19 -- Build Server: 10.6.13
+FILE SIZE:	dup-database__[HASH].sql (4.39MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`u1567848_allin`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	56
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     1]
+TABLE "wp_e_events"_____________________________________[ROWS:     1]
+TABLE "wp_e_submissions"________________________________[ROWS:     1]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:     1]
+TABLE "wp_e_submissions_values"_________________________[ROWS:     6]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   251]
+TABLE "wp_postmeta"_____________________________________[ROWS:  1011]
+TABLE "wp_posts"________________________________________[ROWS:   241]
+TABLE "wp_term_relationships"___________________________[ROWS:    40]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    13]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:    13]
+TABLE "wp_usermeta"_____________________________________[ROWS:    40]
+TABLE "wp_users"________________________________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 0.5995 sec.
+STEP-2 COMPLETE @ 07:20:58 - RUNTIME: 0.5995 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/ardatagr/dekopin.or.id REPLACE: /home/u1567848/public_html/dekopin.or.id [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://dekopin.or.id REPLACE: http://dekopin.or.id [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:20:58
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 600], [inWpConfig = 1]
+WP_POST_REVISIONS_____: [value = 5], [inWpConfig = 1]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = 1], [inWpConfig = 1]
+WP_DEBUG_DISPLAY______: [value = ], [inWpConfig = 1]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = 1]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 256M], [inWpConfig = 1]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = 1]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+DATABASE OPTIONS DELETED [ROWS:    30]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_events][0]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions][0]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_actions_log][0]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_values][0]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   221][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1011][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   241][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    40][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/ardatagr/dekopin.or.id" ====================> "/home/u1567848/public_html/dekopin.or.id"
+	SEARCH[urlnd]  2:"https://dekopin.or.id" ===========================> "http://dekopin.or.id"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+--------------------------------------
+SCANNED:	Tables:18 	|	 Rows:1554 	|	 Cells:10845 
+UPDATED:	Tables:5 	|	 Rows:298 	|	 Cells:345 
+ERRORS:		0 
+RUNTIME:	0.324700 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/u1567848/public_html/dekopin.or.id/wp-config.php
+New .htaccess file created:/home/u1567848/public_html/dekopin.or.id/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_PLUGIN_DIR "/home/u1567848/public_html/dekopin.or.id/wp-content/plugins"
+	UPDATE WPMU_PLUGIN_DIR "/home/u1567848/public_html/dekopin.or.id/wp-content/mu-plugins"
+	UPDATE DB_NAME ""u1567848_dekopin""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE AUTOSAVE_INTERVAL "600"
+	WP CONFIG UPDATE WP_POST_REVISIONS "5"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	WP CONFIG UPDATE WP_DEBUG_LOG "true"
+	WP CONFIG UPDATE WP_DEBUG_DISPLAY "false"
+	WP CONFIG UPDATE CONCATENATE_SCRIPTS "false"
+	WP CONFIG UPDATE EMPTY_TRASH_DAYS "21"
+	WP CONFIG UPDATE WP_MEMORY_LIMIT "256M"
+	WP CONFIG UPDATE WP_MAX_MEMORY_LIMIT "512M"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 0 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/u1567848/public_html/dekopin.or.id"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:20:59 - RUNTIME: 0.4497 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/src/Core/Bootstrap.php:73] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[/home/u1567848/public_html/dekopin.or.id/dup-installer/ctrls/ctrl.base.php:232][DELTA:   0.04045]  MESSAGE:END RENDER PAGE

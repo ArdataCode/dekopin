@@ -1,0 +1,392 @@
+[14-Jan-2024 05:29:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(335): wp_mail()
+#5 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[14-Jan-2024 07:47:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(335): wp_mail()
+#5 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[14-Jan-2024 09:00:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(335): wp_mail()
+#5 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[14-Jan-2024 16:41:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(335): wp_mail()
+#5 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[16-Jan-2024 04:50:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(335): wp_mail()
+#5 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[16-Jan-2024 13:58:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(335): wp_mail()
+#5 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[17-Jan-2024 10:37:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(335): wp_mail()
+#5 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[17-Jan-2024 23:36:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(335): wp_mail()
+#5 /home/websit19/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[22-Jan-2024 10:15:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[23-Jan-2024 06:25:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[23-Jan-2024 18:37:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[25-Jan-2024 00:03:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[25-Jan-2024 13:29:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[29-Jan-2024 14:35:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[29-Jan-2024 23:34:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[30-Jan-2024 22:31:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[01-Feb-2024 18:26:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[02-Feb-2024 04:08:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[03-Feb-2024 03:52:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[04-Feb-2024 02:18:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[05-Feb-2024 21:53:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[10-Feb-2024 10:14:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[11-Feb-2024 16:42:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[13-Feb-2024 05:00:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[13-Feb-2024 19:08:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[14-Feb-2024 07:45:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[14-Feb-2024 16:28:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[15-Feb-2024 09:45:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/actions/email.php(330): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php(159): ElementorPro\Modules\Forms\Actions\Email->run()
+#6 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form()
+#7 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/landingu/dekopin.or.id/wp-admin/admin-ajax.php(203): do_action()
+#10 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874

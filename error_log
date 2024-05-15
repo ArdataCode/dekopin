@@ -1,0 +1,786 @@
+[08-Jan-2024 13:44:17 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[08-Jan-2024 18:04:43 UTC] Cron reschedule event error for hook: rsssl_every_five_minutes_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[09-Jan-2024 21:38:59 UTC] Cron reschedule event error for hook: rsssl_every_five_minutes_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[12-Jan-2024 16:31:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/websit19/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1042): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/websit19/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/websit19/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[17-Jan-2024 04:32:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/websit19/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1042): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/websit19/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/websit19/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[24-Jan-2024 16:33:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1046): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[25-Jan-2024 04:33:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[25-Jan-2024 05:51:05 UTC] PHP Warning:  Undefined array key "body_background_image_tablet" in /home/landingu/dekopin.or.id/wp-content/plugins/elementor/includes/base/controls-stack.php on line 1459
+[25-Jan-2024 05:51:05 UTC] PHP Warning:  Undefined array key "body_background_image_tablet" in /home/landingu/dekopin.or.id/wp-content/plugins/elementor/includes/base/controls-stack.php on line 1459
+[29-Jan-2024 16:32:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1042): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[30-Jan-2024 04:33:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1046): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[30-Jan-2024 16:33:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[31-Jan-2024 04:33:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[31-Jan-2024 16:32:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[01-Feb-2024 04:33:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[01-Feb-2024 16:33:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[02-Feb-2024 04:33:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[02-Feb-2024 16:33:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[03-Feb-2024 03:15:20 UTC] Cron reschedule event error for hook: rsssl_every_five_minutes_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[03-Feb-2024 04:31:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[03-Feb-2024 16:31:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[04-Feb-2024 04:31:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[04-Feb-2024 16:31:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[05-Feb-2024 04:32:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[05-Feb-2024 16:33:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1046): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[06-Feb-2024 04:33:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[06-Feb-2024 16:33:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[07-Feb-2024 04:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[07-Feb-2024 16:32:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1046): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[08-Feb-2024 04:33:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[08-Feb-2024 16:33:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[09-Feb-2024 04:33:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[09-Feb-2024 16:33:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[10-Feb-2024 04:33:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[10-Feb-2024 16:33:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[11-Feb-2024 04:32:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[11-Feb-2024 16:33:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[12-Feb-2024 04:34:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[12-Feb-2024 16:33:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[13-Feb-2024 04:31:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1046): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[13-Feb-2024 16:31:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1046): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[14-Feb-2024 04:31:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[14-Feb-2024 16:31:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[15-Feb-2024 04:32:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
+[15-Feb-2024 16:32:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/landingu/dekopin.or.id/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1359): wp_mail()
+#5 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(1044): WP_Automatic_Updater->send_plugin_theme_email()
+#6 /home/landingu/dekopin.or.id/wp-admin/includes/class-wp-automatic-updater.php(608): WP_Automatic_Updater->after_plugin_theme_update()
+#7 /home/landingu/dekopin.or.id/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/landingu/dekopin.or.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/landingu/dekopin.or.id/wp-includes/update.php(292): do_action()
+#12 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/landingu/dekopin.or.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/landingu/dekopin.or.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/landingu/dekopin.or.id/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/landingu/dekopin.or.id/wp-includes/PHPMailer/PHPMailer.php on line 874
